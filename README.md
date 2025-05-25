@@ -29,11 +29,12 @@
 
 <p align="center">
   
-![photo_2025-05-25_21-31-21](https://github.com/user-attachments/assets/865f6be5-ccc7-42cc-9d18-1672277268f6)
-![photo_2025-05-25_21-31-25](https://github.com/user-attachments/assets/bb17a8c5-14bf-435a-976f-a700b9d48a26)
-![photo_2025-05-25_21-31-29](https://github.com/user-attachments/assets/2616508f-42f8-4345-8d26-cadedb68ca24)
-![photo_2025-05-25_21-31-32](https://github.com/user-attachments/assets/64f2f507-349b-4a82-bc8c-49bb451485a1)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/865f6be5-ccc7-42cc-9d18-1672277268f6" width="220" />
+  <img src="https://github.com/user-attachments/assets/bb17a8c5-14bf-435a-976f-a700b9d48a26" width="220" />
+  <img src="https://github.com/user-attachments/assets/2616508f-42f8-4345-8d26-cadedb68ca24" width="220" />
+  <img src="https://github.com/user-attachments/assets/64f2f507-349b-4a82-bc8c-49bb451485a1" width="220" />
+</p>
 </p>
 
 ---
