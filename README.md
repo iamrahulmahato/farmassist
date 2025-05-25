@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/built%20with-Java-blue">
   <img src="https://img.shields.io/badge/Material%20Design-UI-yellow">
   <img src="https://img.shields.io/github/license/github/choosealicense.com">
+
 </p>
 
 ---
@@ -34,6 +35,8 @@
   <img src="https://github.com/user-attachments/assets/bb17a8c5-14bf-435a-976f-a700b9d48a26" width="220" />
   <img src="https://github.com/user-attachments/assets/2616508f-42f8-4345-8d26-cadedb68ca24" width="220" />
   <img src="https://github.com/user-attachments/assets/64f2f507-349b-4a82-bc8c-49bb451485a1" width="220" />
+  <img src="https://github.com/user-attachments/assets/b183c69a-2ebc-4daf-8438-98a9aba04da8" width="220" />
+  <img src="https://github.com/user-attachments/assets/f80f691f-8d7a-404f-bc7a-912cdf6d2381" width="220" />
 </p>
 </p>
 
