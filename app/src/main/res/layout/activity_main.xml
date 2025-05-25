@@ -141,7 +141,7 @@
                 app:cornerRadius="30dp"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:backgroundTint="#6C63FF"
+                android:backgroundTint="#837CFF"
                 android:textColor="@android:color/white"
                 android:layout_marginTop="32dp"
                 android:layout_marginBottom="24dp"
