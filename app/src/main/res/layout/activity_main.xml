@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center_horizontal"
+    android:padding="0dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="0dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_title"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textViewSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_subtitle"
+                android:textSize="16sp"
+                android:textColor="#FFF5E1"
+                android:gravity="center"
+                android:layout_marginBottom="24dp"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardWeather"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="28dp"
+                app:cardElevation="10dp"
+                android:layout_margin="16dp"
+                android:backgroundTint="#FFE0C2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/textWeatherResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/weather_prompt"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:textColor="#222222"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/textWeatherDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:textColor="#555555"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="8dp"
+                            app:boxBackgroundMode="filled"
+                            app:boxCornerRadiusTopStart="16dp"
+                            app:boxCornerRadiusBottomStart="16dp"
+                            app:boxCornerRadiusTopEnd="0dp"
+                            app:boxCornerRadiusBottomEnd="0dp"
+                            app:boxBackgroundColor="#FFF7ED">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editTextCity"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:hint="🔍"
+                                android:textColor="#222222"
+                                android:textSize="16sp"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/buttonWeather"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:text="🔍"
+                            app:cornerRadius="24dp"
+                            android:textStyle="bold"
+                            android:backgroundTint="#FF8855"
+                            android:textColor="@android:color/white"
+                            android:textAllCaps="false"
+                            android:padding="0dp"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/buttonLocationWeather"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/button_location"
+                        app:cornerRadius="16dp"
+                        android:layout_marginTop="14dp"
+                        android:backgroundTint="#FFE0C2"
+                        android:textColor="#222222"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonSchemes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_schemes"
+                app:cornerRadius="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:backgroundTint="#6C63FF"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:textAllCaps="true"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:includeFontPadding="true"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

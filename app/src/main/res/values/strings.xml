@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FarmAssist</string>
+    <string name="app_title">FarmAssist</string>
+    <string name="app_subtitle">Weather &amp; Schemes for Farmers</string>
+    <string name="weather_prompt">Enter a city or tap location</string>
+    <string name="hint_enter_city">Enter city</string>
+    <string name="button_search">Search</string>
+    <string name="button_location">Get Weather by Location</string>
+    <string name="button_schemes">View Government Schemes</string>
+    <string name="weather_loading">Loading...</string>
+    <string name="weather_location_loading">Getting location...</string>
+    <string name="weather_result">%1$s: %2$.1f°C</string>
+    <string name="weather_error_city">Could not fetch weather for %1$s</string>
+    <string name="weather_error_location">Could not fetch weather for your location</string>
+    <string name="location_error">Could not get location</string>
+    <string name="permission_denied">Location permission denied</string>
+    <string name="enter_city_name">Please enter a city name</string>
+    <string name="splash_loading">FarmAssist Loading...</string>
+    <string name="schemes_title">Government Schemes</string>
+    <string name="scheme_eligibility">Eligibility: %1$s</string>
+    <string name="apply">Apply</string>
+</resources>

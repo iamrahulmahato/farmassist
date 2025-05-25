@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textSchemeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/textSchemeDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFF5E1"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textSchemeEligibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFF5E1"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/buttonApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apply"
+            android:backgroundTint="#6C63FF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
